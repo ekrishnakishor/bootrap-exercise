@@ -15,7 +15,6 @@ function Pricing() {
               </h3>
 
               <div class="switcher-box mt-4 d-flex align-items-center justify-content-center"></div>
-              <span class="font-14 font-weight-medium">YEARLY</span>
             </div>
           </div>
         </div>
