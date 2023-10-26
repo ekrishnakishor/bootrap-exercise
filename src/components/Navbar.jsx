@@ -1,10 +1,20 @@
-import React from 'react'
-import "../assets/nav.css"
+import React from "react";
+import "../assets/nav.css";
 
 function Navbar() {
+  // const price = document.getElementById("price");
+  // const view = document.querySelector(".formactive");
+
+
+  // const toggle = function () {
+  //   view.classList.toggle("visible");
+
+ 
+  // };
+
   return (
     <div>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             Company Name
@@ -40,7 +50,12 @@ function Navbar() {
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="#"
+                   
+                  >
                     Pricing
                   </a>
                 </li>
@@ -52,8 +67,9 @@ function Navbar() {
           </div>
         </div>
       </nav>
+    
     </div>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
