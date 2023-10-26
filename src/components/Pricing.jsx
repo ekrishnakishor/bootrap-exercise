@@ -117,7 +117,7 @@ function Pricing() {
         <form>
           <div class="form-row">
             <div class="col-7">
-              <input type="text" class="form-control" placeholder="Name" />
+              <input type="text" name="Name" class="form-control" placeholder="Name" />
             </div>
             <div class="col">
               <input type="email" class="form-control" placeholder="Email" />
@@ -128,6 +128,7 @@ function Pricing() {
             <div class="col">
               <input type="text" class="form-control" placeholder="Comments" />
             </div>
+            <button type="submit">Submit</button>
           </div>
         </form>
       </div>
